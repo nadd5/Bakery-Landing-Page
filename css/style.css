@@ -1,0 +1,532 @@
+* {
+            margin: 0;
+            padding: 0;
+            font-family: "Alegreya Sans";
+            overflow-x:hidden ;
+            
+        }
+
+.hero{
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/drew-coffman-1872.jpg);
+    height: 108vh;
+    font-family:"Alegreya";
+    color: white;
+    background-color: #000000;
+    margin: 0%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.navbar {
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: transparent;
+  z-index: 50;
+  padding: 20px 162px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+}
+
+.navbar-logo img {
+  height: 48px;
+}
+
+.logo-black {
+  display: none;
+}
+
+.navbar.scrolled .logo-white {
+  display: none;
+}
+
+.navbar.scrolled .logo-black {
+  display: inline;
+}
+
+.navbar.scrolled {
+  background-color: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.218);
+}
+
+.navbar.scrolled a,
+.navbar.scrolled li {
+  color: #353330;
+}
+
+.navbar-links {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  gap: 32px;
+}
+
+.navbar-links li a {
+  color: white;
+  background-color: transparent;
+  font-family: "Alegreya";
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.navbar-links li a:hover {
+  color: #E0C690;
+}
+
+
+.hero-content{
+    max-width: 800px;
+}
+#p1{
+    font-family: "Alegreya Sans";
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 5px;
+    display: block;
+}
+h1{
+    font-weight: 400;
+    font-size: 76px;
+    margin-bottom: 18px;
+    font-family: "Alegreya";
+    display: block;
+
+}
+
+.hero #p2{
+    font-family: "Alegreya Sans";
+    font-size: 24px;
+    font-weight: 400;
+    max-width: 700px;
+    line-height:1.86 ;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+}
+.buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.buttons a{
+    font-family: "Alegreya Sans", sans-serif;
+    color: white;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 30px;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+
+}
+.buttons #abt{
+    
+    background-color:#8E7754 ;
+    border: 2px solid #8E7754;
+    
+
+}
+.buttons #abt:hover {
+    background-color: rgb(255, 255, 255);
+    color:#222222;
+}
+        
+.buttons #cont{
+    background-color: transparent;
+    border-color: white;
+    border: 2px solid #ffffff;
+}
+.buttons #cont:hover {
+    background-color: rgb(255, 255, 255);
+    color:#222222;
+}
+#about{
+    width:100%;
+}
+.container {
+    width: 70%;
+    margin: auto;
+  }
+  
+.container img {
+    width:100%
+ }
+        
+.left {
+    float: left;
+    width: 45%;
+    margin-top: 10px;
+            
+}
+.left img{
+    
+    width: 100%;
+    margin: auto;
+            
+}
+        
+.right {
+    color: #686868;
+    padding-left: 20px;
+    float: left;
+    width: 50%;
+    /* margin-top: 40px; */
+}
+        
+h2 {
+    color: #303030;
+    font-size: 32px;
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    line-height: 45px;
+    margin: 0 0 25px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.right ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.right li {
+    color: #686868;
+    background-color: transparent;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+.right p{
+
+    font-family: "Alegreya Sans", serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+}
+.right li{
+    font-family: "Alegreya", serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+    color: #686868;
+}
+.right i {
+    border: 1px solid #969696;
+    color: #8E7754;
+    margin-right: 15px;
+    font-size: 18px;
+    width: 20px;
+    padding :10px;
+    border-radius:50%;
+}
+
+#loc{
+    background-color: #F8F8F8;
+}
+.containerr {
+    height:500px;
+    width: 70%;
+    margin: auto;
+   
+}
+
+.containerr img {
+    width: 90%;
+    margin-top: 50px;
+}
+
+.containerr .right {
+    color: #686868;
+    padding-right: 10px;
+    float: right;
+    width: 50%; margin-top: 90px;
+    
+}
+
+.containerr .left {
+   
+    float: right;
+    width: 45%;
+}
+
+.containerr p {
+    font-family: "Alegreya Sans", serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 32px;
+}
+
+    
+    
+#our-baking{
+    width:100%;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+.title h2{
+    margin-bottom: 10px;
+}
+.title p{
+    color: #686868;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.grid{
+    text-align: center;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+.card
+{
+    width:31.9%;
+    float: left;
+    padding: 10px;
+    color:#686868;
+    text-align: center;
+    min-width:300px;;
+}
+.card img{
+    width:70%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+.card p{
+    font-size: 16px;
+    line-height: 1.6;
+}
+.card h4{
+    font-weight: 400;
+    font-size: 22px;
+    font-family: "Alegreya";
+    color: #303030;
+    margin-bottom: 15px;
+}
+
+.contact {
+    background-color: #F8F8F8;
+    width: 53.4%;
+    padding: 80px 50px;
+    font-family: "Alegreya Sans", sans-serif;
+    /* margin-left: 20px; */
+    float: left;
+}
+
+.contact .title {
+    
+    margin: 0 auto 40px auto;
+}
+
+.contact p {
+    /* margin: 0 auto 40px auto; */
+    color: #686868;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    line-height: 1.6;
+    max-width: 500px;
+}
+
+.contact ul {
+    list-style: none;
+    padding: 0;
+    
+  
+    
+    
+}
+
+.contact li {
+    color: #686868;
+    background-color: transparent;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+}
+
+.contact li i {
+    border-radius: 50%;
+    background-color:#8E7754;
+    border: #969696;
+    color:white;
+    margin-right: 15px;
+    font-size: 18px;
+    width: 20px;
+    padding :10px;
+    border-radius:50%;
+}
+.map {background-color: #F8F8F8;
+      width: 40%;
+      float: left;
+      
+    }
+
+iframe {background-color: #F8F8F8;
+        margin-top:50px;
+        margin-bottom:86.8px;
+      width: 90%;
+      height:500px;
+      border: 0;
+      
+    }
+
+.footer1{
+    background-color: #403D38;
+    text-align: center;
+    float: left;
+    padding: 50px;
+    color:#969696;
+    width:100%
+}
+.footer1 h4{
+    color:white;
+    font-family: "Alegreya";
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.footer{
+    width:20%;
+    text-align: left;
+    float: left;
+    padding: 20px;
+    color:#969696
+}
+.footer li{
+    list-style: none;
+    background-color: transparent;
+    font-family: "Alegreya Sans";
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    margin: 10px;
+
+
+}
+.footer p{
+    font-family: "Alegreya Sans";
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+.footer div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.footer div i {
+    
+    margin-right: 15px;
+    font-size: 18px;
+    width: 20px;
+    padding :10px;
+    border-radius:50%;
+    color:#969696;
+}
+
+.footer div a {
+    color: #969696;
+    text-decoration: none;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 14px;
+}
+
+.footer div a:hover {
+    color: #E0C690;
+}
+
+footer{
+    background-color: #403D38;
+    text-align: center;
+}
+footer img{
+    width:300px;
+    margin-bottom: 20px;
+}
+.footer-m{background-color:#353330;
+    padding: 20px;
+}
+.footer-m p {
+    color: #969696;
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.social-media a{
+    color:#686868;
+    background-color: transparent;
+    font-family: "Alegreya Sans";
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+
+}
+.social-media i{
+    margin-right: 15px;
+    font-size: 30px;
+    width: 20px;
+    padding :20px;
+    border-radius:50%;
+}
+.social-media a:hover {
+    color:#969696;
+}
+
+.hero-content #hover {
+    width: 30px;
+    height: 70px;
+    border-radius: 25%;
+    border: solid white 3px;
+    
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+#ball{
+    width:10px;
+    height:10px;
+    background-color: white;
+    border-radius: 50%;
+}
