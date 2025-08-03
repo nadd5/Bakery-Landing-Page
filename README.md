@@ -1,4 +1,4 @@
-# 🧁 Bakery Landing page
+# 🍪 Bakery Landing page
 
 A clean, responsive landing page to showcase bakery products and attract customers.
 
@@ -6,8 +6,9 @@ A clean, responsive landing page to showcase bakery products and attract custome
 
 ## 🎥 Demo Preview
 
-![Landingpage Preview](assets/demo1.png)
-> ![Demo Preview](assets/demo.gif)
+![](1.png)
+> ![](2.png)
+> ![](3.png)
 
 ---
 
